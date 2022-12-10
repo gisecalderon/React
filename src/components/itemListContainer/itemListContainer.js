@@ -1,4 +1,6 @@
 import React from 'react'
+import CustomButtom from '../customButton/CustomButton'
+
 
 const itemListContainer = ( {greeting} ) => {
   
@@ -7,6 +9,7 @@ const itemListContainer = ( {greeting} ) => {
   return (
     <div>
       <h2>{greeting}</h2>
+      <CustomButtom texto={"Comprar"}/>
     </div>
   )
 }
